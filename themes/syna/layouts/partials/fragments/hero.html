@@ -1,7 +1,4 @@
 {{- $self := . -}}
-{{- if .Params.particles -}}
-  {{- .page_scratch.Add "js" (dict "file" "syna-hero.js") -}}
-{{- end -}}
 {{- $bg := .self.Scratch.Get "bg" }}
 
 {{ "<!-- Hero -->" | safeHTML }}
@@ -25,9 +22,6 @@
       {{- printf " bg-%s" $bg -}}
     ">
   {{- end }}
-  {{- if .Params.particles }}
-    <div id="{{ printf "%s-particles-js" .Name }}" class="particles-js"></div>
-  {{- end -}}
   {{- if .Params.asset -}}
     {{- with .Params.asset }}
       <div class="row justify-content-center align-items-start">

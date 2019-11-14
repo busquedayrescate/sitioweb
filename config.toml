@@ -1,13 +1,15 @@
 # Site settings
 baseurl = "/"
-languageCode = "en-us"
-title = "Okkur - Syna"
+languageCode = "es-co"
+title = "Fundación Busqueda y Rescate"
 theme = "syna"
 enableGitInfo = true
 version = "0.15.2"
 
 # Google Analytics tracking
 googleAnalytics = ""
+defaultContentLanguage = "es"
+language = "es-CO"
 
 [outputs]
   home = ["HTML", "JSON"]
@@ -17,8 +19,20 @@ date = ["date", "lastmod"]
 lastmod = ["lastmod", ":git", "date"]
 
 [params]
-  name = "Okkur Labs"
-  description = "Open Source Theme for your next project"
+  name = "Fundación Busqueda y Rescate"
+  description = "Agentes de cambio para la sociedad"
+
+  [params.meta]
+    # To provide some metadata for search engines (OPTIONAL)
+    author = "Oscar Andrés Esguerra"
+    description = "<DESCRIPTION>"
+    title = "Fundación Busqueda y Rescate"
+    subtitle = "Agentes de cambio para la sociedad"
+    text = ""
+    button_text = "Más"
+
+    # The path must be relative to the static folder (MANDATORY)
+    favicon = "favicon.ico"
 
   [params.style]
     #background = "secondary"
@@ -60,18 +74,53 @@ lastmod = ["lastmod", ":git", "date"]
 # configurable.
 [[menu.main]]
   url = "/"
-  name = "Home"
+  name = "Inicio"
   weight = 10
 
 [[menu.main]]
-  url = "/about"
-  name = "About Us"
+  url = "#about"
+  name = "Nosotros"
   weight = 20
 
 [[menu.main]]
-  url = "#contact"
-  name = "Contact"
+  url = "#programs"
+  name = "Programas"
   weight = 30
+
+[[menu.main]]
+  url = "#gallery"
+  name = "Gallería"
+  weight = 40
+
+[[menu.main]]
+  url = "#training"
+  name = "Capacitación"
+  weight = 50
+
+[[menu.main]]
+  url = "#newheadquarters"
+  name = "Nueva sede"
+  weight = 60
+
+[[menu.main]]
+  url = "#transparency"
+  name = "Transparencia"
+  weight = 70
+
+[[menu.main]]
+  url = "#support"
+  name = "Apoyo"
+  weight = 80
+
+[[menu.main]]
+  url = "#allies"
+  name = "Aliados"
+  weight = 90
+
+[[menu.main]]
+  url = "#contact"
+  name = "Contacto"
+  weight = 100
 
 [[menu.footer]]
   url = "#"
@@ -104,8 +153,8 @@ lastmod = ["lastmod", ":git", "date"]
   pre = "fab fa-facebook-f"
   url = "#"
 
-[[menu.footer_social]]
-  weight = 30
-  name = "linkedin"
-  pre = "fab fa-linkedin-in"
-  url = "#"
+# [[menu.footer_social]]
+#   weight = 30
+#   name = "linkedin"
+#   pre = "fab fa-linkedin-in"
+#   url = "#"
