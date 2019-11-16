@@ -13,21 +13,6 @@ slug:
   clean_accents: true
 
 collections:
-  # # - name: "blog" # Used in routes, e.g., /admin/collections/blog
-  # #   label: "Blog in English" # Used in the UI
-  # #   folder: "content/posts"
-  # #   filter: {field: "language", value: "en"}
-  # #   create: true # Allow users to create new documents in this collection
-  # #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}.{{language}}."
-  # #   fields: # The fields for each document, usually in front matter
-  # #     - {label: "Layout", name: "layout", widget: "hidden", default: "blog-es"}
-  # #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  # #     - {label: "Title", name: "title", widget: "string"}
-  # #     - {label: "Tags", name: "tags", widget: "list"}
-  # #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  # #     - {label: "Image", name: "image", widget: "image", required: false}
-  # #     - {label: "Author", name: "author", widget: "string"}
-  # #     - {label: "Body", name: "body", widget: "markdown"}
   # - name: "blog" # Used in routes, e.g., /admin/collections/blog
   #   label: "Blog en Español" # Used in the UI
   #   folder: "content/posts"
@@ -44,56 +29,6 @@ collections:
   #     - {label: "Author", name: "author", widget: "string"}
   #     - {label: "Body", name: "body", widget: "markdown"}
   #
-  # - label: "Páginas"
-  #   name: "pages"
-  #   slug: "{{slug}}.{{language}}."
-  #   folder: "content/"
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-  #     - {label: "Url", name: "url", widget: "string", default: "/about/"}
-  #     - {label: "Type", name: "type", widget: "select", default: "page", options: ["page", "contact", "inscription"]}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
-  #     - {label: "Style", name: "css", widget: "string", default: "", required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  # #
-  # - name: "testimonial" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Testimonios" # Used in the UI
-  #   identifier_field: clientName
-  #   folder: "content/testimonial"
-  #   filter: {field: "language", value: "es"}
-  #   create: true # Allow users to create new documents in this collection
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}.{{language}}."
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "testimonial"}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Imagen del cliente", name: "clientThumb", widget: "image", required: false}
-  #     - {label: "Lugar del cliente", name: "clientDesignation", widget: "string"}
-  #     - {label: "Nombre del cliente", name: "clientName", widget: "string"}
-  #     # - {label: "Testimonio", name: "quote", widget: "string"}
-  #     # - {label: "Author", name: "author", widget: "string", required: false}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  #
-  # - name: "member" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Team" # Used in the UI
-  #   folder: "content/team" # The path to the folder where the documents are stored
-  #   create: true # Allow users to create new documents in this collection
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  #   filter: {field: "language", value: "es"}
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
-  #     - {label: "Name", name: "title", widget: "string"}
-  #     - {label: "Photo", name: "image", widget: "image"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Cargo", name: "designation", widget: "string"}
-  #     # - {label: "País", name: "country", widget: "string"}
-  #     - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-
   # - label: "Privacidad"
   #   name: "privacypolicy"
   #   slug: "privacypolicy.{{language}}."
@@ -106,141 +41,39 @@ collections:
   #     - {label: "Publish Date", name: "date", widget: "datetime"}
   #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
   #     - {label: "Body", name: "body", widget: "markdown"}
-  #
-  # - label: "Curriculum"
-  #   name: "curriculum"
-  #   slug: "curriculum.{{language}}."
-  #   folder: "content/"
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-  #     - {label: "Type", name: "type", widget: "hidden", default: "page"}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  # # - name: "blog-en" # Used in routes, e.g., /admin/collections/blog
-  # #   label: "Blog English" # Used in the UI
-  #
-  # - label: "Servicios"
-  #   name: "services"
-  #   slug: "services.{{language}}."
-  #   folder: "content/"
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-  #     - {label: "Type", name: "type", widget: "hidden", default: "page"}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  #
-  # - label: "Equipo"
-  #   name: "team"
-  #   slug: "team.{{language}}."
-  #   folder: "content/"
-  #   fields:
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-  #     - {label: "Type", name: "type", widget: "hidden", default: "page"}
-  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
 
-  #   folder: "content/post"
-  #   create: true # Allow users to create new documents in this collection
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}.en." # Filename template, e.g., YYYY-MM-DD-title.md
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "blog-en"}
-  #     - {label: "Language", name: "language", widget: "hidden", default: "en"}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Featured Image", name: "image", widget: "image", required: false}
-  #     - {label: "Author", name: "author", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  #
-  # - name: "blog-fr" # Used in routes, e.g., /admin/collections/blog
-  #   label: "Blog Français " # Used in the UI
-  #   folder: "content/post"
-  #   create: true # Allow users to create new documents in this collection
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}.fr." # Filename template, e.g., YYYY-MM-DD-title.md
-  #   fields: # The fields for each document, usually in front matter
-  #     - {label: "Layout", name: "layout", widget: "hidden", default: "blog-fr"}
-  #     - {label: "Language", name: "language", widget: "hidden", default: "fr"}
-  #     - {label: "Title", name: "title", widget: "string"}
-  #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  #     - {label: "Featured Image", name: "image", widget: "image", required: false}
-  #     - {label: "Author", name: "author", widget: "string"}
-  #     - {label: "Body", name: "body", widget: "markdown"}
-  # # - name: "member" # Used in routes, e.g., /admin/collections/blog
-  # #   label: "Team" # Used in the UI
-  # #   folder: "content/team"
-  # #   create: true # Allow users to create new documents in this collection
-  # #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  # #   filter: {field: "language", value: "es"}
-  # #   fields: # The fields for each document, usually in front matter
-  # #     - {label: "Layout", name: "layout", widget: "hidden", default: "member"}
-  # #     - {label: "Name", name: "title", widget: "string"}
-  # #     - {label: "Photo", name: "image", widget: "image"}
-  # #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  # #     - {label: "Título", name: "designation", widget: "string"}
-  # #     - {label: "País", name: "country", widget: "string"}
-  # #     - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
-  # #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-  # #     - {label: "Body", name: "body", widget: "markdown"}
-  # #
-  # # - name: "phone" # Used in routes, e.g., /admin/collections/blog
-  # #   label: "Phone" # Used in the UI
-  # #   folder: "content/directory"
-  # #   create: true # Allow users to create new documents in this collection
-  # #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  # #   # slug: "{{country}}-{{city}}-{{number}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  # #   fields: # The fields for each document, usually in front matter
-  # #     - {label: "Layout", name: "layout", widget: "hidden", default: "phone"}
-  # #     - {label: "Title", name: "title", widget: "string", default: ""}
-  # #     - {label: "Body", name: "body", widget: "hidden", default: ""}
-  # #     - {label: "Orden", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, max: 1000}
-  # #     - {label: "País", name: "country", widget: "string"}
-  # #     - {label: "Ciudad", name: "city", widget: "string"}
-  # #     - {label: "Indicativo del país", name: "countryind", widget: "number"}
-  # #     - {label: "Indicativo de la ciudad", name: "cityind", widget: "number", required: false}
-  # #     - {label: "Número", name: "number", widget: "number"}
-  # #     - {label: "Publish Date", name: "date", widget: "datetime"}
-  # #
-  # # - name: "why" # Used in routes, e.g., /admin/collections/blog
-  # #   label: "Slide" # Used in the UI
-  # #   folder: "content/why"
-  # #   create: true # Allow users to create new documents in this collection
-  # #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  # #   # slug: "{{country}}-{{city}}-{{number}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  # #   fields: # The fields for each document, usually in front matter
-  # #     - {label: "Layout", name: "layout", widget: "hidden", default: "why"}
-  # #     - {label: "Title", name: "title", widget: "string", default: ""}
-  # #     - {label: "Body", name: "body", widget: "hidden", default: ""}
-  # #     - {label: "Orden", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, max: 1000}
-  # #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  - label: "Nosotros"
+    name: "about"
+    slug: "about"
+    folder: "content/"
+    fields:
+      - {label: "Title", name: "title", widget: "hidden", default: "Nosotros"}
+      - {label: "Logo", name: "avatar", widget: "hidden", default: "logo.svg"}
+      - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
+      - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "allies" # Used in routes, e.g., /admin/collections/allies
     label: "Aliados" # Used in the UI
-    folder: "content/_index/allies" # The path to the folder where the documents are stored
+    folder: "content/allies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: {field: "language", value: "es"}
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Empty", name: "notext", widget: "hidden", default: "true"}
+      # - {label: "Empty", name: "notext", widget: "hidden", default: "true"}
       - {label: "Photo", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       # - {label: "Cargo", name: "designation", widget: "string"}
       # - {label: "País", name: "country", widget: "string"}
       - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
-      - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
+      # - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
       # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "gallery" # Used in routes, e.g., /admin/collections/gallery
     label: "Galeria" # Used in the UI
-    folder: "content/_index/gallery" # The path to the folder where the documents are stored
+    folder: "content/gallery" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: {field: "language", value: "es"}
@@ -248,15 +81,13 @@ collections:
       - {label: "Name", name: "title", widget: "string"}
       - {label: "Photo", name: "image", widget: "image"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      # - {label: "Cargo", name: "designation", widget: "string"}
-      # - {label: "País", name: "country", widget: "string"}
       - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
-      - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-      - {label: "Body", name: "body", widget: "markdown"}
+      # - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
+      # - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "programs" # Used in routes, e.g., /admin/collections/programs
     label: "Programas" # Used in the UI
-    folder: "content/_index/programs" # The path to the folder where the documents are stored
+    folder: "content/programs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     filter: {field: "language", value: "es"}
@@ -270,18 +101,18 @@ collections:
       - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "newheadquarters" # Used in routes, e.g., /admin/collections/newheadquarters
-    label: "Nueva Sede" # Used in the UI
-    folder: "content/newheadquarters" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    filter: {field: "language", value: "es"}
-    fields: # The fields for each document, usually in front matter
-      - {label: "Name", name: "title", widget: "string"}
-      # - {label: "Photo", name: "image", widget: "image"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      # - {label: "Cargo", name: "designation", widget: "string"}
-      # - {label: "País", name: "country", widget: "string"}
-      - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
-      - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
-      - {label: "Body", name: "body", widget: "markdown"}
+  # - name: "newheadquarters" # Used in routes, e.g., /admin/collections/newheadquarters
+  #   label: "Nueva Sede" # Used in the UI
+  #   folder: "content/newheadquarters" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   filter: {field: "language", value: "es"}
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Name", name: "title", widget: "string"}
+  #     # - {label: "Photo", name: "image", widget: "image"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     # - {label: "Cargo", name: "designation", widget: "string"}
+  #     # - {label: "País", name: "country", widget: "string"}
+  #     - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
+  #     - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
+  #     - {label: "Body", name: "body", widget: "markdown"}
