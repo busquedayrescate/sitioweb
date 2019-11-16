@@ -221,7 +221,7 @@ collections:
   # #     - {label: "Orden", name: "weight", widget: "number", default: 1, valueType: "int", min: 1, max: 1000}
   # #     - {label: "Publish Date", name: "date", widget: "datetime"}
 
-  - name: "allies" # Used in routes, e.g., /admin/collections/blog
+  - name: "allies" # Used in routes, e.g., /admin/collections/allies
     label: "Aliados" # Used in the UI
     folder: "content/_index/allies" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -238,7 +238,7 @@ collections:
       - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
       # - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "gallery" # Used in routes, e.g., /admin/collections/blog
+  - name: "gallery" # Used in routes, e.g., /admin/collections/gallery
     label: "Galeria" # Used in the UI
     folder: "content/_index/gallery" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -254,7 +254,7 @@ collections:
       - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "programs" # Used in routes, e.g., /admin/collections/blog
+  - name: "programs" # Used in routes, e.g., /admin/collections/programs
     label: "Programas" # Used in the UI
     folder: "content/_index/programs" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
@@ -262,7 +262,7 @@ collections:
     filter: {field: "language", value: "es"}
     fields: # The fields for each document, usually in front matter
       - {label: "Name", name: "title", widget: "string"}
-      - {label: "Photo", name: "image", widget: "image"}
+      - {label: "Photo", name: "image", widget: "image", hint: "Dimensiones 1280x847"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       # - {label: "Cargo", name: "designation", widget: "string"}
       # - {label: "País", name: "country", widget: "string"}
@@ -270,7 +270,7 @@ collections:
       - {label: "Language", name: "language", widget: "select", default: "es", options: ["es"]}
       - {label: "Body", name: "body", widget: "markdown"}
 
-  - name: "newheadquarters" # Used in routes, e.g., /admin/collections/blog
+  - name: "newheadquarters" # Used in routes, e.g., /admin/collections/newheadquarters
     label: "Nueva Sede" # Used in the UI
     folder: "content/newheadquarters" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
