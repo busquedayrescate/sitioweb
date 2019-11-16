@@ -82,9 +82,9 @@ paginate = 10
 
 [[menu.topbar]]
     weight = 2
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+    name = "Instagram"
+    url = "http://Instagram.com"
+    pre = "<i class='fab fa-2x fa-instagram'></i>"
 
 [[menu.topbar]]
     weight = 3
