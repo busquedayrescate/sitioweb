@@ -1,0 +1,32 @@
+{{ if isset .Site.Params "support" }}
+{{ if .Site.Params.support.enable }}
+<section class="bar background-gray no-mb" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              {{ range first 1 (where .Site.Pages "Title" "¿Cómo puedes apoyarnos?") }}
+              <div class="container-fluid">
+                  <div class="row">
+                      <div class="col-md-10 col-md-offset-2">
+                          {{ with .Title }}
+                              <h2 class="section-heading">{{ . }}</h2>
+                              <hr class="primary light">
+                          {{ end }}
+                      </div>
+                  </div>
+              </div>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-xs-12 col-md-8 text-tertiary">
+                          <p>{{ .Content | markdownify }}</p>
+                      </div>
+                  </div>
+              </div>
+              {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
+{{ end }}
