@@ -2,6 +2,7 @@
 date = "2017-10-05"
 weight = 1
 title = "Nosotros"
+avatar = "logo.svg"
 +++
 
 # Misión

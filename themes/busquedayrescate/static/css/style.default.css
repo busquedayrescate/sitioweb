@@ -3565,3 +3565,29 @@ a.list-group-item.active > .badge,
   left: 15px;
   right: 15px;
 }
+
+
+/* PROFILE BOX */
+
+.profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+
+.profile .portrait {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 30px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    border-radius: var(--GENERAL-IMAGE-BORDER-RADIUS);
+}
+
+.profile .text-primary p {
+    font-size: 1.5em;
+    font-weight: 300;
+}
