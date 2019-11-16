@@ -1204,6 +1204,7 @@ fieldset[disabled] .btn-template-primary.active {
   text-transform: uppercase;
   font-size: 46px;
   letter-spacing: 0.08em;
+  color: #923e3e;
 }
 @media (max-width: 991px) {
   .home-carousel h1 {
