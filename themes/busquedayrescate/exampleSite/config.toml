@@ -1,11 +1,12 @@
 baseurl = "https://example.org"
 title = "Universal"
-theme = "busquedayrescate"
-languageCode = "es-co"
+theme = "hugo-universal-theme"
+themesDir = "../.."
+languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "es"
+defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-# disqusShortname = "devcows"
+disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
@@ -17,79 +18,53 @@ paginate = 10
 # Main menu
 
 [[menu.main]]
-  url = "/"
-  name = "Inicio"
-  weight = 10
+    identifier="home"
+    name = "Home"
+    url  = "/"
+    weight = 1
 
 [[menu.main]]
-  url = "/#about"
-  name = "Nosotros"
-  weight = 20
+    identifier="blog"
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
 
 [[menu.main]]
-  url = "/#programs"
-  name = "Programas"
-  weight = 30
+    identifier = "faq"
+    name = "FAQ"
+    url  = "/faq/"
+    weight = 3
 
 [[menu.main]]
-  url = "/#gallery"
-  name = "Gallería"
-  weight = 40
-
-[[menu.main]]
-  url = "/#training"
-  name = "Capacitación"
-  weight = 50
-
-[[menu.main]]
-  url = "/newheadquarters"
-  name = "Nueva sede"
-  weight = 60
-
-[[menu.main]]
-  url = "/#transparency"
-  name = "Transparencia"
-  weight = 70
-
-[[menu.main]]
-  url = "/#support"
-  name = "Apoyo"
-  weight = 80
-
-[[menu.main]]
-  url = "/#allies"
-  name = "Aliados"
-  weight = 90
-
-[[menu.main]]
-  url = "/#contact"
-  name = "Contacto"
-  weight = 100
+    identifier = "contact"
+    name = "Contact"
+    url  = "/contact/"
+    weight = 4
 
 # Top bar social links menu
 
-# [[menu.topbar]]
-#     weight = 1
-#     name = "GitHub"
-#     url = "https://github.com/devcows/hugo-universal-theme"
-#     pre = "<i class='fab fa-2x fa-github'></i>"
-
 [[menu.topbar]]
     weight = 1
+    name = "GitHub"
+    url = "https://github.com/devcows/hugo-universal-theme"
+    pre = "<i class='fab fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
     name = "Facebook"
     url = "http://facebook.com"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
 [[menu.topbar]]
-    weight = 2
+    weight = 3
     name = "Twitter"
     url = "http://twitter.com"
     pre = "<i class='fab fa-2x fa-twitter'></i>"
 
 [[menu.topbar]]
-    weight = 3
+    weight = 4
     name = "Email"
-    url = "mailto:fundacion.busquedayrescate@gmail.com"
+    url = "mailto:your@email.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
@@ -123,28 +98,28 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io email
-    email = "fundacion.busquedayrescate@gmail.com"
+    email = "your@email.com"
     contact_form_ajax = false
 
-    about_us = "<p>La Fundación Búsqueda y Rescate es una organización sin ánimo de lucro, que des hace 9 años tiene como objetivo favorecer a menores y sus familias en condición de vulnerabilidad en la localidad de Suba, los cuales están expuestos a los peligros de las calles de Bogotá D.C.</p>"
-    copyright = "Copyright (c) 2019, Fundación Búsqueda y Rescate; todos los derechos reservados."
+    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
+    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p><strong>Fundación Búsqueda y Rescate</strong>
-        <br>Carrera 100a #140b-33
-        <br>Bogotá
+    address = """<p><strong>Universal Ltd.</strong>
+        <br>13/25 New Avenue
+        <br>Newtown upon River
+        <br>45Y 73J
+        <br>England
         <br>
-        <strong>Colombia</strong>
+        <strong>Great Britain</strong>
       </p>
       """
-    latitude = ""
-    longitude = ""
-    # latitude = "-74.0931071"
-    # longitude = "4.7419858"
+    latitude = "-12.043333"
+    longitude = "-77.028333"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -152,7 +127,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728">+57 3123604728</a> o <a href="mailto:fundacion.busquedayrescate@gmail.com">fundacion.busquedayrescate@gmail.com</a>.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
@@ -170,22 +145,14 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
-[params.about]
-    enable = true
-    # All clients are defined in their own files. You can find example items
-    # at 'exampleSite/data/clients'.
-    # For more informtion take a look at the README.
-    title = "Nosotros"
-    subtitle = ""
-
 [params.features]
-    enable = false
+    enable = true
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
 
 [params.testimonials]
-    enable = false
+    enable = true
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
@@ -193,22 +160,22 @@ paginate = 10
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = false
+    enable = true
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
     link_url = "#"
     link_text = "Check other homepages"
 
-[params.allies]
+[params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Aliados"
+    title = "Our Clients"
     subtitle = ""
 
 [params.recent_posts]
-    enable = false
+    enable = true
     title = "From our blog"
     subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
