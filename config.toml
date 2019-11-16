@@ -1,5 +1,5 @@
-baseurl = "https://example.org"
-title = "Universal"
+baseurl = "/"
+title = "Fundación Búsqueda y Rescate"
 theme = "busquedayrescate"
 languageCode = "es-co"
 # Site language. Available translations in the theme's `/i18n` directory.
