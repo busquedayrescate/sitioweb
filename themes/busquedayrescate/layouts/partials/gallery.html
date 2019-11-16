@@ -1,5 +1,6 @@
 {{ if isset .Site.Params "gallery" }}
 {{ if .Site.Params.gallery.enable }}
+{{ if gt (len (where .Site.Pages "Section" "gallery")) 0 }}
 <section id="gallery">
     <div class="gallery-carousel">
         <div class="container">
@@ -18,5 +19,6 @@
           </div>
     </div>
 </section>
+{{ end }}
 {{ end }}
 {{ end }}
