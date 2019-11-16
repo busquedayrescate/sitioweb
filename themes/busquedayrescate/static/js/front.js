@@ -147,7 +147,10 @@ function sliders () {
       stopOnHover: true,
       singleItem: false,
       afterInit: '',
-      lazyLoad: true
+      lazyLoad: true,
+      loop:true,
+      autoWidth:true,
+      items:3
     })
   }
 }
