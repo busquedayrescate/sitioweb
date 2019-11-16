@@ -137,6 +137,18 @@ function sliders () {
         // animationsSlider()
       }
     })
+
+    $('.gallery').owlCarousel({
+      navigation: true, // Show next and prev buttons
+      navigationText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right"></i>'],
+      slideSpeed: 300,
+      paginationSpeed: 400,
+      autoPlay: true,
+      stopOnHover: true,
+      singleItem: false,
+      afterInit: '',
+      lazyLoad: true
+    })
   }
 }
 

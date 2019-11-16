@@ -170,6 +170,9 @@ paginate = 10
     # at 'exampleSite/data/carousel'.
     # For more informtion take a look at the README.
 
+[params.gallery]
+    enable = true
+
 [params.about]
     enable = true
     # All clients are defined in their own files. You can find example items

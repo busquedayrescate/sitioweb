@@ -1,0 +1,22 @@
+{{ if isset .Site.Params "gallery" }}
+{{ if .Site.Params.gallery.enable }}
+<section id="gallery">
+    <div class="gallery-carousel">
+        <div class="container">
+            <div class="heading text-center">
+                <h2>Gallería</h2>
+            </div>
+            <div class="gallery owl-carousel">
+                {{ range where .Site.Pages "Section" "gallery" }}
+                {{ if .Params.image }}
+                <div class="item">
+                    <img class="img-responsive img-small" src="{{ .Params.image }}" alt="">
+                </div>
+                {{ end }}
+                {{ end }}
+            </div>
+          </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}

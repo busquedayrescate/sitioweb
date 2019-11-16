@@ -3592,3 +3592,8 @@ a.list-group-item.active > .badge,
     font-size: 1.5em;
     font-weight: 300;
 }
+
+#gallery .img-small {
+  height: 200px;
+  max-width: 400px;
+}
