@@ -6,7 +6,7 @@ avatar = "logo.svg"
 +++
 
 # Misión
-La Fundación Búsqueda y Rescate es una organización sin ánimo de lucro, que des hace 9 años tiene como objetivo favorecer a menores y sus familias en condición de vulnerabilidad en la localidad de Suba, los cuales están expuestos a los peligros de las calles de Bogotá D.C.   Esto a través de actividades que pretenden inculcar el óptimo y sano aprovechamiento del tiempo libre y la importancia del aprendizaje en varios campos a través de capacitaciones espirituales, lúdicas, artísticas, deportivas y académicas, proyectando a la población a ser agentes de cambio en la sociedad.
+La Fundación Búsqueda y Rescate es una organización sin ánimo de lucro, que desde hace 9 años tiene como objetivo favorecer a menores y sus familias en condición de vulnerabilidad en la localidad de Suba, los cuales están expuestos a los peligros de las calles de Bogotá D.C.   Esto a través de actividades que pretenden inculcar el óptimo y sano aprovechamiento del tiempo libre y la importancia del aprendizaje en varios campos a través de capacitaciones espirituales, lúdicas, artísticas, deportivas y académicas, proyectando a la población a ser agentes de cambio en la sociedad.
 
 # Visión
 
