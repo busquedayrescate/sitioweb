@@ -45,11 +45,11 @@ collections:
   - label: "Nosotros"
     name: "about"
     slug: "about"
-    folder: "content/"
+    file: "content/about.md"
     fields:
       - {label: "Title", name: "title", widget: "hidden", default: "Nosotros"}
       - {label: "Logo", name: "avatar", widget: "hidden", default: "logo.svg"}
-      - {label: "Idioma", name: "language", widget: "select", default: "es", options: ["es"]}
+      # - {label: "Idioma", name: "language", widget: "select", default: "es", options: ["es"]}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
       - {label: "Author", name: "author", widget: "string", default: "Fundación Búsqueda y Rescate"}
       - {label: "Texto", name: "body", widget: "markdown"}
