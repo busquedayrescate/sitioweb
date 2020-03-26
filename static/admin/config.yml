@@ -42,17 +42,19 @@ collections:
   #     - {label: "Author", name: "author", widget: "string", default: "Édukanata"}
   #     - {label: "Texto", name: "body", widget: "markdown"}
 
-  - label: "Nosotros"
-    name: "about"
-    slug: "about"
-    files: "content/about.md"
-    fields:
-      - {label: "Title", name: "title", widget: "hidden", default: "Nosotros"}
-      - {label: "Logo", name: "avatar", widget: "hidden", default: "logo.svg"}
-      # - {label: "Idioma", name: "language", widget: "select", default: "es", options: ["es"]}
-      - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      - {label: "Author", name: "author", widget: "string", default: "Fundación Búsqueda y Rescate"}
-      - {label: "Texto", name: "body", widget: "markdown"}
+  - label: "Páginas"
+    name: "pages"
+    files:
+      - label: "Nosotros"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: "Title", name: "title", widget: "hidden", default: "Nosotros"}
+          - {label: "Logo", name: "avatar", widget: "hidden", default: "logo.svg"}
+          # - {label: "Idioma", name: "language", widget: "select", default: "es", options: ["es"]}
+          - {label: "Fecha de publicación", name: "date", widget: "datetime"}
+          - {label: "Author", name: "author", widget: "string", default: "Fundación Búsqueda y Rescate"}
+          - {label: "Texto", name: "body", widget: "markdown"}
 
   - name: "allies" # Used in routes, e.g., /admin/collections/allies
     label: "Aliados" # Used in the UI
