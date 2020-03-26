@@ -45,7 +45,7 @@ collections:
   - label: "Nosotros"
     name: "about"
     slug: "about"
-    file: "content/about.md"
+    files: "content/about.md"
     fields:
       - {label: "Title", name: "title", widget: "hidden", default: "Nosotros"}
       - {label: "Logo", name: "avatar", widget: "hidden", default: "logo.svg"}
