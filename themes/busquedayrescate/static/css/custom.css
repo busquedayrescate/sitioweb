@@ -12,3 +12,8 @@
 .navbar-affixed-top {
   height: 160px!important;
 }
+
+
+#transparency li.item h3 {
+  min-height: 80px;
+}
