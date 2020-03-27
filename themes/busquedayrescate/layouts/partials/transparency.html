@@ -1,0 +1,34 @@
+{{ if isset .Site.Params "transparency" }}
+{{ if .Site.Params.transparency.enable }}
+{{ if gt (len (where .Site.Pages "Section" "transparency")) 0 }}
+<section class="bar background-gray no-mb" id="transparency">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading text-center">
+                    <h2>{{ .Site.Params.transparency.title | markdownify }}</h2>
+                </div>
+
+                <p class="lead">
+                  {{ .Site.Params.transparency.subtitle | markdownify }}
+                </p>
+
+                <ul class="owl-carousel customers">
+                    {{ range where .Site.Pages "Section" "transparency" }}
+                    {{ if in .Params.Documents "/images/uploads/" }}
+                    <li class="item" title="{{ .Title }}">
+                      <h3>{{ .Title }}</h3>
+                        <a href="{{ .Params.Documents }}" target="_blank">
+                          <img class="img-responsive img-small" src="/images/PDF_file_icon.svg" alt="">
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
