@@ -1,6 +1,6 @@
 ---
 title: Hilando Actos de Paz
-image: /images/uploads/img_20190330_104750.jpg
+image: /images/uploads/iap2.jpg
 date: 2019-11-16T01:55:14.655Z
 weight: 1
 language: es
