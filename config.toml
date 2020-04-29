@@ -1,4 +1,4 @@
-baseurl = "/"
+aseurl = "/"
 title = "Fundación Búsqueda y Rescate"
 theme = "busquedayrescate"
 languageCode = "es-co"
@@ -33,7 +33,7 @@ paginate = 10
 
 [[menu.main]]
   url = "/#gallery"
-  name = "Gallería"
+  name = "Galería"
   weight = 40
 
 [[menu.main]]
