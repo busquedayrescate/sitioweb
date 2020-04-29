@@ -1,6 +1,6 @@
 ---
 title: Iniciación  Musical
-image: /images/uploads/piano-3290798_1280.jpg
+image: /images/uploads/iniciacion-musical.jpg
 date: 2019-11-16T02:31:53.896Z
 weight: 5
 language: es
