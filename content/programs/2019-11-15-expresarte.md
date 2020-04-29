@@ -1,6 +1,6 @@
 ---
 title: Expresarte
-image: /images/uploads/img_20190426_150504.jpg
+image: /images/uploads/ea.jpg
 date: 2019-11-16T02:06:35.656Z
 weight: 2
 language: es
