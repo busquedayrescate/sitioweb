@@ -1,6 +1,6 @@
 ---
 title: Escuela de Patinaje
-image: /images/uploads/rollerblade-20155_1280.jpg
+image: /images/uploads/ep.jpg
 date: 2019-11-16T02:18:42.863Z
 weight: 4
 language: es
