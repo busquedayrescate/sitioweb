@@ -1,6 +1,5 @@
 {{ if isset .Site.Params "allies" }}
 {{ if .Site.Params.allies.enable }}
-{{ if gt (len .Site.Data.allies) 0 }}
 <section class="bar background-gray no-mb" id="allies">
     <div class="container">
         <div class="row">
@@ -14,16 +13,18 @@
                 </p>
 
                 <ul class="owl-carousel customers">
-                    {{ range .Site.Data.allies }}
-                    <li class="item" title="{{ .name }}">
-                        {{ if .url }}
-                          <a href="{{ .url }}" target="_blank">
-                            <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                    {{ range where .Site.Pages "Section" "allies" }}
+                    {{ if .Title }}
+                    <li class="item" title="{{ .Title }}">
+                        {{ if .Params.url }}
+                          <a href="{{ .Params.url }}" target="_blank">
+                            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-responsive" />
                           </a>
                         {{ else }}
-                          <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+                          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="img-responsive" />
                         {{ end }}
                     </li>
+                    {{ end }}
                     {{ end }}
                 </ul>
                 <!-- /.owl-carousel -->
@@ -31,6 +32,5 @@
         </div>
     </div>
 </section>
-{{ end }}
 {{ end }}
 {{ end }}
