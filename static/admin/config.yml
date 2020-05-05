@@ -67,7 +67,7 @@ collections:
       # - {label: "Empty", name: "notext", widget: "hidden", default: "true"}
       - {label: "Foto", name: "image", widget: "image"}
       - {label: "Fecha de publicación", name: "date", widget: "datetime"}
-      # - {label: "Cargo", name: "designation", widget: "string"}
+      - {label: "URL", name: "url", widget: "string", default: ""}
       # - {label: "País", name: "country", widget: "string"}
       - {label: "Orden", name: "weight", widget: "number", default: 2, valueType: "int", min: 1, max: 101}
       # - {label: "Idioma", name: "language", widget: "select", default: "es", options: ["es"]}
