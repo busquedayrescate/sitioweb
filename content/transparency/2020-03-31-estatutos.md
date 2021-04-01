@@ -1,7 +1,7 @@
 ---
 title: Estatutos
-date: 2020-03-31T00:38:04.190Z
+date: 2021-04-01T16:27:12.634Z
 weight: 2
-documents: /images/uploads/estatutos_fundacion.pdf
+documents: /images/uploads/estatutos2021.pdf
 ---
 Fundación Búsqueda y Rescate. Estatutos.
