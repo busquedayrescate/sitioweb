@@ -1,7 +1,7 @@
 ---
-title: Carta de Cargos
-date: 2020-03-27T00:03:47.331Z
+title: Certificado de Cargos
+date: 2021-04-01T17:46:50.252Z
 weight: 2
-documents: /images/uploads/carta-cargos.pdf
+documents: /images/uploads/certificado-de-cargos.pdf
 ---
-Fundación Búsqueda y Rescate. Carta de cargos
+Fundación Búsqueda y Rescate. Certificado de cargos
