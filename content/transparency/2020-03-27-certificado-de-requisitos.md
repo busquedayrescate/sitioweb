@@ -1,7 +1,7 @@
 ---
-title: Certificado de Requisitos
-date: 2020-03-27T00:00:53.080Z
+title: Certificación de Requisitos
+date: 2021-04-01T17:41:25.806Z
 weight: 2
-documents: /images/uploads/certificado-de-requisitos-2020.pdf
+documents: /images/uploads/certificacion-de-requisitos.pdf
 ---
-Fundación Búsqueda y Rescate. Certificado de Requisitos.
+Fundación Búsqueda y Rescate. Certificación de Requisitos.
