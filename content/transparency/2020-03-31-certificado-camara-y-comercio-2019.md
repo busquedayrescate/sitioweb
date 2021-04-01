@@ -1,7 +1,7 @@
 ---
-title: Cámara y Comercio 2019
-date: 2020-03-31T00:58:02.211Z
+title: Cámara y Comercio
+date: 2021-04-01T17:43:33.870Z
 weight: 2
-documents: /images/uploads/cycfbr2019.pdf
+documents: /images/uploads/camara-y-comercio.pdf
 ---
-Fundación Búsqueda y Rescate. Certificado Cámara y Comercio 2019
+Fundación Búsqueda y Rescate. Certificado Cámara y Comercio.
