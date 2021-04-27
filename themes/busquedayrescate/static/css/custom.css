@@ -9,11 +9,20 @@
   min-height: 230px;
 }
 
-.navbar-affixed-top {
-  height: 160px!important;
-}
-
-
 #transparency li.item h3 {
   min-height: 80px;
 }
+
+#top .contact-text a {
+  text-decoration: underline;
+  color: #eee;
+}
+
+#top #nav-custom-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 100%;
+} 
