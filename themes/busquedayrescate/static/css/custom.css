@@ -44,12 +44,22 @@
   padding: 0px 100px 50px;
 }
 
-.caption-carousel > div {
+.caption-carousel>div {
   background-color: #00000033;
   padding: 10px 50px
 }
 
-.caption-carousel h1,
-.caption-carousel p {
+.caption-carousel h1, .caption-carousel p {
   color: #fff
+}
+
+.owl-theme .owl-controls {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  margin-top: 0px;
+}
+
+.home-carousel .owl-theme .owl-controls .owl-page span {
+  background: #ccc9c9;
 }
