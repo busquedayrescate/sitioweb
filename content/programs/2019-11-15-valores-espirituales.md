@@ -1,6 +1,6 @@
 ---
 title: Valores Espirituales
-image: /images/uploads/ve.jpg
+image: /images/uploads/carousel-3.jpg
 date: 2019-11-16T02:12:28.819Z
 weight: 3
 ---

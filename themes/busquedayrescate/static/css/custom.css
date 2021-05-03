@@ -9,11 +9,58 @@
   min-height: 230px;
 }
 
-.navbar-affixed-top {
-  height: 160px!important;
-}
-
-
 #transparency li.item h3 {
   min-height: 80px;
+}
+
+#top .contact-text a {
+  text-decoration: underline;
+  color: #eee;
+}
+
+#top #nav-custom-top {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 100%;
+}
+
+.item-carousel {
+  position: relative;
+}
+
+.caption-carousel {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0px 100px 50px;
+}
+
+.caption-carousel>div {
+  background-color: #00000033;
+  margin: 0px -100px;
+  padding: 10px 50px
+}
+
+.caption-carousel h1, .caption-carousel p {
+  color: #fff
+}
+
+.owl-theme .owl-controls {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  margin-top: 0px;
+}
+
+.home-carousel .owl-theme .owl-controls .owl-page span {
+  background: #ccc9c9;
 }

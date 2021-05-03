@@ -1,28 +1,25 @@
 {{ if isset .Site.Params "carousel" }}
 {{ if .Site.Params.carousel.enable }}
-<section id="programs">
+<section id="programs" class="no-mb">
     <div class="home-carousel">
-        <div class="dark-mask"></div>
-        <div class="container">
-            <div class="homepage owl-carousel">
-                {{ range where .Site.Pages "Section" "programs" }}
-                {{ if .Title }}
-                <div class="item">
-                    <div class="row">
-                        <div class="col-sm-7">
-                            <img class="img-responsive" src="{{ .Params.image }}" alt="">
-                        </div>
-                        <div class="col-sm-5 right">
-                            <h1>{{.Title}}</h1>
-                            {{ .Content | safeHTML }}
-                        </div>
+        <div class="homepage owl-carousel">
+            {{ range where .Site.Pages "Section" "programs" }}
+            {{ if .Content }}
+            <div class="item item-carousel">
+                <div class="dark-mask"></div>
+                <img class="img-responsive img-carousel" src="{{ .Params.image }}" alt="">
+                <div class="caption-carousel">
+                    <div>
+                        <h1>{{.Title}}</h1>
+                        {{ .Content | safeHTML }}
                     </div>
                 </div>
-                {{ end }}
-                {{ end }}
             </div>
-            <!-- /.project owl-slider -->
+
+            {{ end }}
+            {{ end }}
         </div>
+        <!-- /.project owl-slider -->
     </div>
 </section>
 {{ end }}

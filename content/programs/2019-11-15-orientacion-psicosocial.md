@@ -1,6 +1,6 @@
 ---
 title: Orientación Psicosocial
-image: /images/uploads/op.jpg
+image: /images/uploads/carousel-2.jpg
 date: 2019-11-16T02:39:38.584Z
 weight: 6
 ---

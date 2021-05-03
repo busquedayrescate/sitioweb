@@ -1,6 +1,6 @@
 ---
 title: Iniciación  Musical
-image: /images/uploads/iniciacion-musical.jpg
+image: /images/uploads/carousel-4.jpg
 date: 2019-11-16T02:31:53.896Z
 weight: 5
 ---

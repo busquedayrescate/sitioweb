@@ -1,6 +1,6 @@
 ---
 title: Expresarte
-image: /images/uploads/ea.jpg
+image: /images/uploads/carousel-5.jpg
 date: 2019-11-16T02:06:35.656Z
 weight: 2
 ---
