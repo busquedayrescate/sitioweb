@@ -41,11 +41,6 @@ paginate = 10
   name = "Galería"
   weight = 50
 
-[[menu.main]]
-  url = "/#training"
-  name = "Capacitación"
-  weight = 60
-
 # [[menu.main]]
 #   url = "/newheadquarters"
 #   name = "Nueva sede"
