@@ -41,11 +41,6 @@ paginate = 10
   name = "Galería"
   weight = 50
 
-# [[menu.main]]
-#   url = "/newheadquarters"
-#   name = "Nueva sede"
-#   weight = 60
-
 [[menu.main]]
   url = "/#transparency"
   name = "Transparencia"
@@ -67,12 +62,6 @@ paginate = 10
   weight = 100
 
 # Top bar social links menu
-
-# [[menu.topbar]]
-#     weight = 1
-#     name = "GitHub"
-#     url = "https://github.com/devcows/hugo-universal-theme"
-#     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 1

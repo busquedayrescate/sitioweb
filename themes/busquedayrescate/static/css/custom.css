@@ -1,4 +1,80 @@
 /* your styles go here */
+@font-face {
+  font-family: "Wendy-One";
+  src: url("./fonts/wendy-one/WendyOne-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-ExtraBold.ttf");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-ExtraBoldItalic.ttf");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-LightItalic.ttf");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+body { 
+  font-family: "Open-Sans", serif
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Wendy-One";
+}
 
 .box-image-text .image {
   min-height: 200px;
