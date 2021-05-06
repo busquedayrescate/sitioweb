@@ -241,7 +241,7 @@ ul.list-style-none {
 }
 #top p {
   margin: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 #top .social {
   float: right;
@@ -308,15 +308,14 @@ ul.list-style-none {
   border: none;
 }
 .navbar ul.nav > li > a {
-  font-size: 10px;
-  text-transform: uppercase;
-  text-decoration: underline;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px #490a54;
+  text-decoration: underline;
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {

@@ -147,7 +147,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728">+57 3123604728</a> o <a href="mailto:fundacion.busquedayrescate@gmail.com">fundacion.busquedayrescate@gmail.com</a></p>
+    text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728"><strong>+57 312 360 4728</strong></a> o <a href="mailto:fundacion.busquedayrescate@gmail.com"><strong>fundacion.busquedayrescate@gmail.com</strong></a></p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
