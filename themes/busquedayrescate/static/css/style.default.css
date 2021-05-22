@@ -3061,6 +3061,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #ffffff;
   border-color: #cccccc;
   border-bottom: none;
+  border-bottom: 1px solid #ededed;
 }
 .navbar-default .navbar-brand {
   color: #555555;

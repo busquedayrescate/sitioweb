@@ -56,11 +56,6 @@ paginate = 10
   name = "Aliados"
   weight = 90
 
-[[menu.main]]
-  url = "/contact/"
-  name = "Contacto"
-  weight = 100
-
 # Top bar social links menu
 
 [[menu.topbar]]
@@ -121,8 +116,7 @@ paginate = 10
     email = "fundacion.busquedayrescate@gmail.com"
     contact_form_ajax = false
 
-    about_us = "<p>La Fundación Búsqueda y Rescate es una organización sin ánimo de lucro, que desde hace 9 años tiene como objetivo favorecer a menores y sus familias en condición de vulnerabilidad en la localidad de Suba, los cuales están expuestos a los peligros de las calles de Bogotá D.C.</p>"
-    copyright = "Copyright (c) 2019, Fundación Búsqueda y Rescate; todos los derechos reservados."
+    copyright = "Copyright (c) 2021, Fundación Búsqueda y Rescate; todos los derechos reservados."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
