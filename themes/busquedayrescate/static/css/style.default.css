@@ -3353,23 +3353,20 @@ label {
   }
 }
 /* type */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 900;
   line-height: 1.1;
-  color: #923e3e;
+  color: #490a54;
 }
+
+h2 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #f48430;
+}
+
 h1,
 .h1,
 h2,

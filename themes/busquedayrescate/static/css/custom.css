@@ -172,3 +172,17 @@ h1, h2, h3, h4, h5{
  .top-buttons .btn-pago {
    margin-right: 10px;
  }
+
+ .text-purple {
+  color: #490a54;
+ }
+
+ .fa-7x {
+   font-size: 9em;
+ }
+
+ .flex-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ }
