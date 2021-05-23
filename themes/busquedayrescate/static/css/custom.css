@@ -140,3 +140,35 @@ h1, h2, h3, h4, h5{
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #ccc9c9;
 }
+
+.border-round {
+  border-radius: 20px;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #490a54;
+  border-color: #1f0224;
+}
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus {
+  color: #fff;
+  background-color: #9316a9;
+}
+
+.top-buttons {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+.top-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+ }
+
+ .top-buttons .btn-pago {
+   margin-right: 10px;
+ }

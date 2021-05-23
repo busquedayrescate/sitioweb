@@ -139,6 +139,15 @@ paginate = 10
     blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
+[params.btnPago]
+    enable = true
+    text = """
+        <a href="https://checkout.wompi.co/l/VPOS_tUvamG" target="_blank" class="btn btn-purple border-round btn-pago">
+          Dona aquí
+        </a>
+      """
+
+# Enable or disable top bar with social icons
 [params.topbar]
     enable = true
     text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728"><strong>+57 312 360 4728</strong></a> o <a href="mailto:fundacion.busquedayrescate@gmail.com"><strong>fundacion.busquedayrescate@gmail.com</strong></a></p>

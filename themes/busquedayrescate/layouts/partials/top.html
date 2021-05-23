@@ -6,11 +6,14 @@
         {{ .Site.Params.topbar.text | safeHTML }}
       </div>
       <div class="col-xs-7">
-        <div class="social">
-          {{ range .Site.Menus.topbar.ByWeight }}
-          <a href="{{ .URL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
-          {{ end }}
-        </div>
+        <div class="top-buttons">
+          {{ .Site.Params.btnPago.text | safeHTML }}
+          <div class="social">
+            {{ range .Site.Menus.topbar.ByWeight }}
+            <a href="{{ .URL }}" target="_blank" style="opacity: 1;">{{ .Pre }}</a>
+            {{ end }}
+          </div>
+      </div>
       </div>
     </div>
   </div>

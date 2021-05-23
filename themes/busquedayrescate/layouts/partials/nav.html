@@ -30,6 +30,7 @@
                       {{ range .Children }}
                         <li><a href="{{ .URL }}">{{ .Name }}</a></li>
                       {{ end }}
+                      
                     </ul>
                     {{ else }}
                     <a href="{{ .URL }}">{{ .Name }}</a>

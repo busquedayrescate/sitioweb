@@ -5,18 +5,18 @@ title = "¿Cómo puedes apoyarnos?"
 +++
 
 ## Donación en materiales:
-- materiales escolares
-- juguetes
-- mercados
-- archivo, material reciclable.
-- implementos deportivos
+- Materiales escolares.
+- Juguetes.
+- Mercados.
+- Archivo, material reciclable.
+- Implementos deportivos.
 
 ## Donación en efectivo:
-- plan padrino
-- sede propia
+- Plan padrino.
+- Sede propia.
 
 ## Voluntariado:
 
 Si tienes un talento o habilidad, puedes venir a enseñarlo.
-los aportes en efectivo los puedes hacer por la cuenta bancaría.
-recibiras una certificación por tu aporte.
+Los aportes en efectivo los puedes hacer por la cuenta bancaría.
+Recibiras una certificación por tu aporte.
