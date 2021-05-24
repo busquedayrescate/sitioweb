@@ -188,14 +188,17 @@ h1, h2, h3, h4, h5{
  }
 
  .main-donation {
-  background-color: #f8ecaf;
+  background-color: #f1f0ea;
  }
- .main-donation h2 {
-  color: #490a54;
+ .main-donation h2,
+ .main-donation p {
+  color: #f48430;
  }
 
  .main-donation .btn-pago {
-   font-size: 20px;
-   margin-top: 20px;
-   font-family: "Wendy-One";
- }
+  font-size: 24px;
+  margin-top: 20px;
+  font-family: "Wendy-One";
+  padding: 10px 60px;
+  border-radius: 30px;
+}
