@@ -186,3 +186,16 @@ h1, h2, h3, h4, h5{
   align-items: center;
   flex-wrap: wrap;
  }
+
+ .main-donation {
+  background-color: #f8ecaf;
+ }
+ .main-donation h2 {
+  color: #490a54;
+ }
+
+ .main-donation .btn-pago {
+   font-size: 20px;
+   margin-top: 20px;
+   font-family: "Wendy-One";
+ }

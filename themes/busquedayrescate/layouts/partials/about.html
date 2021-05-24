@@ -6,14 +6,6 @@
             <div class="col-md-12">
               {{ range first 1 (where .Site.Pages "Title" "Nosotros") }}
               <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                        {{ with .Title }}
-                            <h1 class="section-heading">{{ . }}</h1>
-                            <hr class="primary light">
-                        {{ end }}
-                    </div>
-                </div>
                 <div class="row flex-center">
                     <div class="col-xs-12 col-sm-6 text-center">
                         <span class="fa-stack fa-7x">
