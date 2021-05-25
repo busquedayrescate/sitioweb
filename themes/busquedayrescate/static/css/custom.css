@@ -1,4 +1,80 @@
 /* your styles go here */
+@font-face {
+  font-family: "Wendy-One";
+  src: url("./fonts/wendy-one/WendyOne-Regular.ttf")
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-BoldItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-ExtraBold.ttf");
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-ExtraBoldItalic.ttf");
+  font-weight: bolder;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Italic.ttf");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Light.ttf");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-LightItalic.ttf");
+  font-weight: lighter;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-Regular.ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Open-Sans";
+  src: url("./fonts/open-sans/OpenSans-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+body { 
+  font-family: "Open-Sans", serif
+}
+
+h1, h2, h3, h4, h5{
+  font-family: "Wendy-One";
+}
 
 .box-image-text .image {
   min-height: 200px;
@@ -63,4 +139,66 @@
 
 .home-carousel .owl-theme .owl-controls .owl-page span {
   background: #ccc9c9;
+}
+
+.border-round {
+  border-radius: 20px;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #490a54;
+  border-color: #1f0224;
+}
+
+.btn-purple:hover,
+.btn-purple:active,
+.btn-purple:focus {
+  color: #fff;
+  background-color: #9316a9;
+}
+
+.top-buttons {
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+.top-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+ }
+
+ .top-buttons .btn-pago {
+   margin-right: 10px;
+ }
+
+ .text-purple {
+  color: #490a54;
+ }
+
+ .fa-7x {
+   font-size: 9em;
+ }
+
+ .flex-center {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+
+ .main-donation {
+  background-color: #f1f0ea;
+ }
+ .main-donation h2,
+ .main-donation p {
+  color: #f48430;
+ }
+
+ .main-donation .btn-pago {
+  font-size: 24px;
+  margin-top: 20px;
+  font-family: "Wendy-One";
+  padding: 10px 60px;
+  border-radius: 30px;
 }

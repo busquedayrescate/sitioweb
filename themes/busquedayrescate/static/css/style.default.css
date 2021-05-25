@@ -241,7 +241,7 @@ ul.list-style-none {
 }
 #top p {
   margin: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 #top .social {
   float: right;
@@ -308,15 +308,14 @@ ul.list-style-none {
   border: none;
 }
 .navbar ul.nav > li > a {
-  font-size: 10px;
-  text-transform: uppercase;
-  text-decoration: underline;
+  font-size: 12px;
   font-weight: bold;
   letter-spacing: 0.08em;
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
   border-top: solid 5px #490a54;
+  text-decoration: underline;
 }
 .navbar ul.nav > li.active > a,
 .navbar ul.nav > li.open > a {
@@ -520,7 +519,6 @@ body.boxed .navbar-affixed-top.affix {
 .btn {
   font-weight: 700;
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
   letter-spacing: 0.08em;
   padding: 6px 12px;
   font-size: 13px;
@@ -1216,7 +1214,6 @@ fieldset[disabled] .btn-template-primary.active {
 .home-carousel ul,
 .home-carousel p {
   font-size: 18px;
-  font-weight: 700;
   padding: 0;
   letter-spacing: 0.10em;
 }
@@ -3063,6 +3060,7 @@ fieldset[disabled] .btn-template-primary.active {
   background-color: #ffffff;
   border-color: #cccccc;
   border-bottom: none;
+  border-bottom: 1px solid #ededed;
 }
 .navbar-default .navbar-brand {
   color: #555555;
@@ -3355,23 +3353,20 @@ label {
   }
 }
 /* type */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h1 {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-weight: 900;
   line-height: 1.1;
-  color: #923e3e;
+  color: #490a54;
 }
+
+h2 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #f48430;
+}
+
 h1,
 .h1,
 h2,

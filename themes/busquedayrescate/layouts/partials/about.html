@@ -1,38 +1,21 @@
 {{ if isset .Site.Params "about" }}
 {{ if .Site.Params.about.enable }}
-<section class="bar background-gray no-mb" id="about">
-    <div class="container">
+<section class="bar background-white no-mb" id="about">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
               {{ range first 1 (where .Site.Pages "Title" "Nosotros") }}
-              <div class="container-fluid">
-                  <div class="row">
-                      <div class="col-md-10 col-md-offset-2">
-                          {{ with .Title }}
-                              <h2 class="section-heading">{{ . }}</h2>
-                              <hr class="primary light">
-                          {{ end }}
-                      </div>
-                  </div>
-              </div>
               <div class="container">
-                  <div class="row">
-                      <div class="col-xs-12 col-md-4">
-                          <div class="profile">
-                              {{ with .Params.Avatar }}
-                                  <div class="portrait" title="avatar: {{ . }}" style="background-image: url('{{ (printf "images/%s" .) | absURL }}');"></div>
-                              {{ end }}
-                              {{ with .Params.Short_text }}
-                                  <div class="text-primary">
-                                      <p>{{ . | markdownify }}</p>
-                                  </div>
-                              {{ end }}
-                          </div>
-                      </div>
-
-                      <div class="col-xs-12 col-md-8 text-tertiary">
-                          <p>{{ .Content }}</p>
-                      </div>
+                <div class="row flex-center">
+                    <div class="col-xs-12 col-sm-6 text-center">
+                        <span class="fa-stack fa-7x">
+                            <i class="fas fa-circle fa-stack-2x text-purple"></i>
+                            <i class="fas fa-rocket fa-stack-1x fa-inverse"></i>
+                          </span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 text-tertiary">
+                        <p>{{ .Content }}</p>
+                    </div>
                   </div>
               </div>
               {{ end }}

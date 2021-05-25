@@ -41,11 +41,6 @@ paginate = 10
   name = "Galería"
   weight = 50
 
-# [[menu.main]]
-#   url = "/newheadquarters"
-#   name = "Nueva sede"
-#   weight = 60
-
 [[menu.main]]
   url = "/#transparency"
   name = "Transparencia"
@@ -61,18 +56,7 @@ paginate = 10
   name = "Aliados"
   weight = 90
 
-[[menu.main]]
-  url = "/contact/"
-  name = "Contacto"
-  weight = 100
-
 # Top bar social links menu
-
-# [[menu.topbar]]
-#     weight = 1
-#     name = "GitHub"
-#     url = "https://github.com/devcows/hugo-universal-theme"
-#     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
     weight = 1
@@ -132,8 +116,7 @@ paginate = 10
     email = "fundacion.busquedayrescate@gmail.com"
     contact_form_ajax = false
 
-    about_us = "<p>La Fundación Búsqueda y Rescate es una organización sin ánimo de lucro, que desde hace 9 años tiene como objetivo favorecer a menores y sus familias en condición de vulnerabilidad en la localidad de Suba, los cuales están expuestos a los peligros de las calles de Bogotá D.C.</p>"
-    copyright = "Copyright (c) 2019, Fundación Búsqueda y Rescate; todos los derechos reservados."
+    copyright = "Copyright (c) 2021, Fundación Búsqueda y Rescate; todos los derechos reservados."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
@@ -156,9 +139,18 @@ paginate = 10
     blog = "/blog/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
+[params.btnPago]
+    enable = true
+    text = """
+        <a href="https://checkout.wompi.co/l/VPOS_tUvamG" target="_blank" class="btn btn-purple border-round btn-pago">
+          Dona aquí
+        </a>
+      """
+
+# Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728">+57 3123604728</a> o <a href="mailto:fundacion.busquedayrescate@gmail.com">fundacion.busquedayrescate@gmail.com</a></p>
+    text = """<p class="hidden-sm hidden-xs">Contáctanos en <a href="tel:+573123604728"><strong>+57 312 360 4728</strong></a> o <a href="mailto:fundacion.busquedayrescate@gmail.com"><strong>fundacion.busquedayrescate@gmail.com</strong></a></p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>

@@ -4,22 +4,13 @@
     <div class="home-carousel">
         <div class="homepage owl-carousel">
             {{ range where .Site.Pages "Section" "programs" }}
-            {{ if .Content }}
+            {{ if .Params.image }}
             <div class="item item-carousel">
-                <div class="dark-mask"></div>
                 <img class="img-responsive img-carousel" src="{{ .Params.image }}" alt="">
-                <div class="caption-carousel">
-                    <div>
-                        <h1>{{.Title}}</h1>
-                        {{ .Content | safeHTML }}
-                    </div>
-                </div>
             </div>
-
             {{ end }}
             {{ end }}
         </div>
-        <!-- /.project owl-slider -->
     </div>
 </section>
 {{ end }}
